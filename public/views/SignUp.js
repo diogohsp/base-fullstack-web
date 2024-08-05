@@ -9,6 +9,7 @@ export default class extends AbstractView {
   async getHtml() {
     return `
         <h1>Cadastre-se</h1>
+        <button class="btn btn-primary" type="button">teste</button>
         `;
   }
 }
