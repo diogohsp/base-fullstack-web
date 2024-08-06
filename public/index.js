@@ -1,6 +1,6 @@
-import Dashboard from "./views/Dashboard.js";
-import NotFoundPage from "./views/NotFoundPage.js";
-import SignUp from "./views/SignUp.js";
+import Dashboard from "./src/views/Dashboard.js";
+import NotFoundPage from "./src/views/NotFoundPage.js";
+import SignUp from "./src/views/SignUp.js";
 
 const navigateTo = (url) => {
   history.pushState(null, null, url);
