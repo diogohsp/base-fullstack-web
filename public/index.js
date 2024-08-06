@@ -11,11 +11,8 @@ const router = async () => {
   const routes = [
     { path: "/", view: Dashboard },
     { path: "/404", view: NotFoundPage },
-    { path: "/sign-in", view: () => console.log("viewing sign-in") },
-    { path: "/sign-up", view: SignUp },
   ];
 
-  //Testando cada rota
   const potentialMatches = routes.map((route) => {
     return {
       route: route,
